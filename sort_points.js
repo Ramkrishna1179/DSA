@@ -68,3 +68,6 @@
 // .17) git rm --cached <file_path>       we can delete node module file while staging react project on github by following this command git rm -rf node_modules
 
 
+// .18) WINDOW.SCROLLtO(0 ,0) function prevents the by default scroll of the react components by defining the window.scrollTo(0,0) We can show the top phase of the page or components. used in bridgefix website current openings more details section.
+
+// .19)  overflow-y: scroll;overflow-x: hidden;height: 550px; This css properties enables the scroll bar on the components where we want to add scrollbar. The height property allows to set the height of the components like how much part of the components we want to show in our screen without scrolling 
