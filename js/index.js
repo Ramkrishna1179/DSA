@@ -1,12 +1,14 @@
+
+
 // git remote add origin https://github.com/Ramkrishna1179/DSA.git
 
-// Q.1) Write a program to Using JavaScript switch statement to get the day of the week .
+// Q.1) Write a program to Using JavaScript switch statement to get the day of the week.
 
 // let ans = new Date();
 // let dayname = ans.getDay()
 // let day = dayname;
 // switch (dayname) {
-//                 case 1: console.log("monday");
+//                  case 1: console.log("monday");
 //                  break;
 //                  case 2: console.log("tuesday");
 //                  break;
@@ -202,6 +204,109 @@
 //     }
 // }
 
+
+// Q.9) Pyramid pattern by taking the input from the user by prompt star
+// output = 
+
+// Enter the height of the pyramid:5
+// *********
+//  *******
+//   *****
+//    ***
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+// function printPattern(height) {
+//     let pattern = '';
+    
+//     // First part: Inverse pyramid
+//     for (let i = height; i >= 1; i--) {
+//         let str = '';
+//         // Add leading spaces
+//         for (let j = 0; j < height - i; j++) {
+//             str += ' ';
+//         }
+//         // Add stars
+//         for (let k = 0; k < 2 * i - 1; k++) {
+//             str += '*';
+//         }
+//         pattern += str + '\n';
+//     }
+
+//     // Second part: Pyramid
+//     for (let i = 2; i <= height; i++) {
+//         let str = '';
+//         // Add leading spaces
+//         for (let j = 0; j < height - i; j++) {
+//             str += ' ';
+//         }
+//         // Add stars
+//         for (let k = 0; k < 2 * i - 1; k++) {
+//             str += '*';
+//         }
+//         pattern += str + '\n';
+//     }
+
+//     console.log(pattern);
+// }
+
+// const userInput = prompt("Enter the height of the pyramid:");
+// const height = parseInt(userInput);
+
+// if (!isNaN(height) && height > 0) {
+//     printPattern(height);
+// } else {
+//     console.log("Please enter a valid positive number.");
+// }
+
+// Q .14)Write a program to print Right Triangle Pattern in JavaScript.
+// output:-
+//     *
+//    **
+//   ***
+//  ****
+// *****
+// for(let i =1;i<=5;i++){
+//     let str = "";
+//     for(let j = 5;j>=1;j--){
+// if(i>=j){
+//     str= str+"*";
+// }
+// else{
+//     str = str+" ";
+// }
+// }
+// console.log(str);
+// }
+
+// Q.15)Write a program to print Pyramid Pattern in javascript .
+// output:-
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+// Q.16)write a program to print Triangle pattern in javascript .
+// output:-
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
+// 5 5 5 5 5
+
+// for(let i = 1;i<=5;i++){
+//     let str = "";
+//    for(let j = 1;j<=i;j++){
+// str+=i+" ";
+//    }
+//    console.log(str);
+// }
+
+
 // Q.9)Write a program to print a pattern using for loop .
 // output:-
 //    1
@@ -220,6 +325,72 @@
 // str+=j+" ";
 //     }
 //     console.log(str);
+// }
+
+
+// Q36)Write a JavaScript program to create a series and take input from the user .
+// for example:- user type 5
+// output:- A,AA,AAA,AAAA,AAAAA
+
+// let m = prompt("enter your number :",'here')
+// let arr=[]
+// let n = []
+// arr.push(m)
+// myfunc(arr)
+// function myfunc(arr){
+// arr.map(function(el){
+// for(let i=1; i<=el; i++){
+//   let str = "";
+//     for(let j=i; j<=i; j++){
+//       for(let k=1; k<=j; k++){
+//         str += "A";
+// }
+// }n.push(str)
+// }
+// });console.log(n)
+// document.body.innerHTML= n;
+// }
+
+// Q .37)Write a program to print Pyramid Pattern in javascript .
+// output:-
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+// let n = 5;
+// for (let i = 1; i <= n; i++) {
+//   let str = "";
+//   for (let j = 1; j <= n - i; j++) {
+//     str+= " ";
+//   }
+//   for (let k = 1; k < =2 * i - 1; k++) {
+//     str+="*";
+//   }
+//   console.log(str);
+// }
+
+// Q 108 print this pattern
+ // 1234
+//  5678
+//  9012
+//  3456
+//  7890
+
+// int num = 1;
+// for (int i = 1; i <= 5; i++) {
+//    for (int j = 1; j <= 4; j++) {
+//       System.out.print(num);
+//       num++;
+//       if (num > 9) {
+//          num = 0;
+//       }
+//    }
+//    System.out.println();
+//    if (i == 2 || i == 3) {
+//       System.out.print(" ");
+//    }
 // }
 
 // Q.10)Write a program to find the power of a given number using for loop .
@@ -299,49 +470,7 @@
 //     }
 // console.log(max);
 
-// Q .14)Write a program to print Right Triangle Pattern in JavaScript.
-// output:-
-//     *
-//    **
-//   ***
-//  ****
-// *****
-// for(let i =1;i<=5;i++){
-//     let str = "";
-//     for(let j = 5;j>=1;j--){
-// if(i>=j){
-//     str= str+"*";
-// }
-// else{
-//     str = str+" ";
-// }
-// }
-// console.log(str);
-// }
 
-// Q.15)Write a program to print Pyramid Pattern in javascript .
-// output:-
-//     *
-//    ***
-//   *****
-//  *******
-// *********
-
-// Q.16)write a program to print Triangle pattern in javascript .
-// output:-
-// 1
-// 2 2
-// 3 3 3
-// 4 4 4 4
-// 5 5 5 5 5
-
-// for(let i = 1;i<=5;i++){
-//     let str = "";
-//    for(let j = 1;j<=i;j++){
-// str+=i+" ";
-//    }
-//    console.log(str);
-// }
 
 // Q.17)Write a JS code to find the number of zeros in 2D Matrix .
 //  arr = [[0,1,1],[0,1,0],[1,0,0]];
@@ -611,48 +740,8 @@
 //      document.body.innerText= (`Your output is :${result}`);
 // }
 
-// // Q36)Write a JavaScript program to create a series and take input from the user .
-// // for example:- user type 5
-// // // output:- A,AA,AAA,AAAA,AAAAA
 
-// let m = prompt("enter your number :",'here')
-// let arr=[]
-// let n = []
-// arr.push(m)
-// myfunc(arr)
-// function myfunc(arr){
-// arr.map(function(el){
-// for(let i=1; i<=el; i++){
-//   let str = "";
-//     for(let j=i; j<=i; j++){
-//       for(let k=1; k<=j; k++){
-//         str += "A";
-// }
-// }n.push(str)
-// }
-// });console.log(n)
-// document.body.innerHTML= n;
-// }
 
-// Q .37)Write a program to print Pyramid Pattern in javascript .
-// output:-
-//     *
-//    ***
-//   *****
-//  *******
-// *********
-
-// let n = 5;
-// for (let i = 1; i <= n; i++) {
-//   let str = "";
-//   for (let j = 1; j <= n - i; j++) {
-//     str+= " ";
-//   }
-//   for (let k = 1; k < =2 * i - 1; k++) {
-//     str+="*";
-//   }
-//   console.log(str);
-// }
 
 //q.38) Write a JavaScript program that accept two integers and display the larger.
 
@@ -1611,24 +1700,31 @@
 // console.log(Reverse("abc@#def&()gh"));
 
 
-// Q 108 print this pattern
- // 1234
-//  5678
-//  9012
-//  3456
-//  7890
 
-// int num = 1;
-// for (int i = 1; i <= 5; i++) {
-//    for (int j = 1; j <= 4; j++) {
-//       System.out.print(num);
-//       num++;
-//       if (num > 9) {
-//          num = 0;
+
+// Q.109) Fibbonacci series
+
+// function fibonacci(num) {
+//     if (num < 0) {
+//       throw new Error("Fibonacci sequence is defined for non-negative numbers");
+//     } else if (num === 0 || num === 1) {
+//       return num; 
+//     } else {
+//       let a = 0, b = 1, c;
+//       for (let i = 2; i <= num; i++) {
+//         c = a + b;
+//         a = b;
+//         b = c;
 //       }
-//    }
-//    System.out.println();
-//    if (i == 2 || i == 3) {
-//       System.out.print(" ");
-//    }
-// }
+//       return c;
+//     }
+//   }
+  
+//   let fibonacciSeries = [];
+//   for (let i = 0; i < 5; i++) {
+//     fibonacciSeries.push(fibonacci(i));
+//   }
+  
+//   console.log(fibonacciSeries);
+  
+  
