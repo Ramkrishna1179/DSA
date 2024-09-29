@@ -12,7 +12,7 @@
 //  [a,,,,f] = arr;
 // console.log(a,f)
 
-// 5.) rest operator It takes an arguments and push it into an array and returns the new array loke c here is a one array which is holding the values from 3 to 6
+// 5.) rest operator It takes an arguments and push it into an array and returns the new array like c here is a one array which is holding the values from 3 to 6
 // function sum(a,b,...c){
 // console.log(a+b,c)
 // }
@@ -96,20 +96,14 @@
     // const excluded_Data = {tanentId,timeNeeded,updatedRemainingTime,workNote,isManual,incomplete,type,} 
     
     
-// .23) For creating and generating the migration in rust with diesel orm and Actix_web framework
+   
+   
+// .26) To clone a specific branch from a Git repository, you can use the -b (or --branch) option followed by the branch name. Here is the general syntax:
 
-    // a.) diesel setup   ->  
-    // This command will create the migrations folder in root dir and it will also create the migration table in database.
-    
-    // b.) diesel generate migration name of the migration => diesel generate migration mymigration 
-   // This will create the the new migration with our specified name and inside this we wiil have up.sql and down.sql so inside this files we will write the code for creating and deleting the table from the database.
-   
-  //  c.) diesel migration run mymigration ->
-   // This command will create the table in the database with our specified columns. 
-   
-   // .24) Rabbitmq instalaltion video on ubuntu = https://www.youtube.com/watch?v=eazz-Je4HAA
-   
-   
+ 
+// git clone -b <branch_name> <repository_url></repository_url>
+
+
    // .25) Revert your last commit locally:
 
 
@@ -140,6 +134,12 @@
 // This will push your local development branch to the remote development branch.
 // By following these steps, you'll be able to revert your last commit, pull the latest changes from the remote development branch, resolve any merge conflicts, and then push your changes to the remote development branch without any data loss.
 
+
+
+// git )  For knowing the all local and server branches in git can use the below command = git branch -a 
+
+
+
 // .26) const myObject = {
 //key1: 'value1',
 //key2: 'value2'
@@ -161,11 +161,26 @@
 // now simply we will run git add commit and origin push new_branch this will push our code into the new branch
 
 
+// .28) For calculating the time of the code like how much time the code is taking for getting executed we can use below functions
+
+// console.timeLog()
+// const CheckTime = (x)=>{
+//     for (let index = 0; index < x; index++) {
+//         const element =  index ;
+//     }
+// }
+// console.time()
+// console.log(CheckTime(5));
+// console.timeEnd()
 
 
+// .29) name has already been declared
 
+// var name = "test1";
+// let name = "test2";
+// console.log(name);
 
-
+// state full and state less and control and uncontrol /Profiling/ lazy loading / event bubling /  React's synthetic event system.
 
 
 
