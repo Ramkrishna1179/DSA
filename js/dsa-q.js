@@ -204,6 +204,26 @@
 //     }
 // }
 
+// Q ) Print prime between 1 to 100
+
+// function PrintPrime(num) {
+//     if (num <= 1) {
+//         return `${num} is not prime`;
+//     }
+//     for (let i = 2; i <= Math.sqrt(num); i++) {
+//         if (num % i === 0) {
+//             return `${num} is not prime`;
+//         }
+//     }
+//     return `${num} is prime`;
+// }
+
+// for (let index = 2; index < 101; index++) {
+//     console.log("🚀 ~ PrintPrime:", PrintPrime(index));
+// }
+
+
+
 
 // Q.9) Pyramid pattern by taking the input from the user by prompt star
 // output = 
@@ -1728,3 +1748,74 @@
 //   console.log(fibonacciSeries);
   
   
+//Q .110) 
+
+
+// let fivepaisa = 0
+// let arr = [5,5,10,20,];
+// let wt = []
+// let ot = [];
+// let start = true;
+// for(let i = 0;i<arr.length;i++){
+//     if(arr[i] ==5){
+//         wt.push(arr[i]);
+//         start = true;
+//         ot.push(start);
+//         fivepaisa++;
+//         // console.log(start)
+//     }
+//     else if(arr[i] ===10){
+//         if(wt.length>0){
+//            for(let j = 0;j<wt.length;j++){
+//             if(wt[j]===5){
+//                 wt.splice(j,1)
+//                 wt.push(arr[i])
+//              start = true;
+//              ot.push(start);
+//             //  console.log(start)
+//             }
+//             else{
+//                 start = false;
+//                 ot.push(start);
+//                 // console.log(start)
+//             }
+//           }
+//         }else{
+//             start = false;
+//             ot.push(start);
+//             // console.log(start)
+//         }
+//     } 
+//     else if(arr[i] ===20){
+//         if(wt.length>0){
+//            for(let j = 0;j<wt.length;j++){
+//             if(wt[j]===5){
+//                 fivepaisa++;
+//             }
+//         }
+//         for(let j = 0;j<wt.length;j++){
+//              if(fivepaisa>=1&& wt[j]===10){
+//                 // console.log(wt)
+//                 wt.splice(j,1);
+//                 fivepaisa--;
+//                 wt.push(arr[i]);
+//                 start = true;
+//                 ot.push(start);
+//                 // console.log(start)
+//             }
+ //         }
+//         }
+//     }
+// }
+ // let output = 0;
+// console.log(ot)
+// for(let i = 0;i<ot.length;i++) {
+//     if(ot[i]===false){
+//         output++;
+//     }
+// }
+// if(output>0){
+//     console.log(false)
+// }else{
+//     console.log(true)
+// }
