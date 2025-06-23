@@ -20,7 +20,7 @@ I look forward to the opportunity to discuss how my background, skills, and enth
 
 //4.- Skills 
 
-// Html5, Css3, Javascript, ReactJs, Bootstrap5, NextJs, Redux-Toolkit, Material-UI, Prime React,Git&Github, Postman, Postgresql, PgAdmin, Nestjs,
+// Html5, Css3, Javascript, ReactJs, Bootstrap5, NextJs, Redux-Toolkit, Material-UI, Prime React,Git&Github, Postman, Postgresql, PgAdmin, Nestjs,Nodejs,Expressjs,MongoDB
 
 
 
@@ -145,7 +145,7 @@ I look forward to the opportunity to discuss how my background, skills, and enth
 
 // async/await is a syntactical sugar on top of Promises. The async keyword is used to define an asynchronous function, and the await keyword is used to pause the execution of the function until a Promise is resolved or rejected.
 
-// In summary, Promises provide a way to handle asynchronous operations using a specific syntax and methods, while async/await is a syntax sugar on top of Promises that allows you to write asynchronous code in a more synchronous-like style. async/await is often considered more readable and easier to reason about, especially for complex asynchronous code, but it is built upon and ultimately uses Promises under the hood.
+// In summary, Promises provide a way to handle asynchronous operations using a specific syntax and methods, while async/await is a syntax sugar on top of Promises that allows us to write asynchronous code in a more synchronous-like style. async/await is often considered more readable and easier to reason about, especially for complex asynchronous code, but it is built upon and ultimately uses Promises under the hood.
 
 // In summary, Promise.all() waits for all promises to resolve or for any one promise to reject, while Promise.race() resolves or rejects as soon as one of the promises in the input iterable resolves or rejects. Promise.all() is useful when you need to wait for multiple asynchronous operations to complete before proceeding, while Promise.race() is useful when you want to get the first resolved or rejected value from a set of asynchronous operations.
 
@@ -264,8 +264,8 @@ I look forward to the opportunity to discuss how my background, skills, and enth
 // React has full control over the form data.
 // Example:
 
-// jsx
-// Copy code
+
+
 // import React, { useState } from 'react';
 
 // const ControlledForm = () => {

@@ -1,5 +1,5 @@
 
-//1.Use a Static Server to Serve the Build Folder Locally. By running this commands we can test the build file of our eact app like is it working correctly or not we can install the build package and than run the serve -s build commnd which will run our app locally.
+//1.Use a Static Server to Serve the Build Folder Locally. By running this commands we can test the build file of our react app like is it working correctly or not we can install the build package and than run the serve -s build commnd which will run our app locally.
 
 // npm install -g serve
 // serve -s build
